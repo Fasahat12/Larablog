@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+#logo {
+    font-family: 'Lobster';
+    font-size: 1.6rem;
+}
+
+.page-item.active .page-link {
+    background-color: #212529;
+    border-color: #212529;
+}
+
+.pagination > li > a,
+.pagination > li > span,
+.page-link:hover  {
+    color: #212529;
+}
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    background-color: #212529;
+    border-color: #212529;
+}
+
+footer {
+    opacity: 0.7;    
+}
+
+#flash-message {
+    right:40%;
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+}
+
+#hero {
+
+    border-bottom-left-radius: 100% 35%;
+    border-bottom-right-radius: 100% 35%;
+}
+
+[contenteditable] {
+    outline: 0px solid transparent;
+}
+
+
+    
+    
